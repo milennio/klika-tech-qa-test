@@ -1,4 +1,8 @@
 language: python
-rmv:
-  - 3.6
-install: ./install-dependencies.sh
+python:
+  - "2.7"
+cache: pip
+install:
+  - pip install -r requirements.txt
+script:
+  - python test_calc_online.py
