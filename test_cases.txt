@@ -1,0 +1,122 @@
+##########################################################################################
+
+TEST CASE 1
+    name: test_division
+    description: Solve the example "258 / 2 = 129" with a calculator
+
+Step 1:
+    Go to http://qa-test.klika-tech.com/ web page.
+    Exp.res.: The name of the title is 'JavaScript Calculator'
+
+Step 2:
+    Click on the next digits: '2','5','8','/','2','='.
+    Exp.res.: 129 is displayed.
+
+Step 3:
+    Close the page.
+    Exp.res.: Page is closed.
+
+##########################################################################################
+##########################################################################################
+
+TEST CASE 2
+    name: test_multiplication
+    description: Solve the example "9564 * 142 = 1358088" with a calculator
+
+Step 1: Go to http://qa-test.klika-tech.com/ web page.
+    Exp.res.: The name of the title is 'JavaScript Calculator'
+
+Step 2:
+    Click on the next digits: '9','5','6','4','*','1','4','2','='.
+    Exp.res.: 1358088 is displayed.
+
+Step 3:
+    Close the page.
+    Exp.res.: Page is closed.
+
+##########################################################################################
+##########################################################################################
+
+TEST CASE 3
+    name: test_addition
+    description: Solve the example "10000732 + 268 = 10001000" with a calculator
+
+Step 1: Go to http://qa-test.klika-tech.com/ web page.
+    Exp.res.: The name of the title is 'JavaScript Calculator'
+
+Step 2:
+    Click on the next digits: '1','0','0','0','0','7','3','2','+','2','6','8','='
+    Exp.res.: 10001000 is displayed.
+
+Step 3:
+    Close the page.
+    Exp.res.: Page is closed.
+
+##########################################################################################
+##########################################################################################
+
+TEST CASE 4
+    name: test_subtraction
+    description: Solve the example "8 - 10 = -2" with a calculator
+
+Step 1: Go to http://qa-test.klika-tech.com/ web page.
+    Exp.res.: The name of the title is 'JavaScript Calculator'
+
+Step 2:
+    Click on the next digits: '8','-','1','0','='
+    Exp.res.: -2 is displayed.
+
+Step 3:
+    Close the page.
+    Exp.res.: Page is closed.
+
+##########################################################################################
+##########################################################################################
+
+TEST CASE 5
+    name: test_action_with_float_numbers
+    description: Solve the example "0.654 - 0.004 = 0.65" with a calculator
+
+Step 1: Go to http://qa-test.klika-tech.com/ web page.
+    Exp.res.: The name of the title is 'JavaScript Calculator'
+
+Step 2:
+    Click on the next digits: '0','.','6','5','4','-','0','.','0','0','4','='
+    Exp.res.: 0.65 is displayed.
+
+Step 3:
+    Close the page.
+    Exp.res.: Page is closed.
+
+##########################################################################################
+##########################################################################################
+
+TEST CASE 6
+    name: test_with_multiple_actions
+    description: Solve the example "(7 + 8) / 3 = 5" with a calculator
+
+Step 1: Go to http://qa-test.klika-tech.com/ web page.
+    Exp.res.: The name of the title is 'JavaScript Calculator'
+
+Step 2:
+    Click on the next digits: '7','+','8','=','/','3','='
+    Exp.res.: 5 is displayed.
+
+
+Step 3:
+    Close the page.
+    Exp.res.: Page is closed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
