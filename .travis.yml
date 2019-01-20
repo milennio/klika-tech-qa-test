@@ -5,5 +5,9 @@ python:
 cache: pip
 install:
   - pip install -r requirements.txt
+  - pip install .
 script:
   - python test_calc_online.py
+branches:
+  only:
+    - master
