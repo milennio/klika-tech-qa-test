@@ -3,9 +3,9 @@ python:
   - "2.7"
   - "3.6"
 cache: pip
-install:
+before_script:
+  - easy_install distribute
   - pip install -r requirements.txt
-  - pip install .
 script:
   - python test_calc_online.py
 branches:
